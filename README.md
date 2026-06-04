@@ -1,4 +1,3 @@
-```markdown
 # 🧬 GWAS QC & Downstream Analysis Pipeline
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
@@ -18,8 +17,12 @@ The workflow is divided into logical, independent modules:
 *   **`metadata/`**: Reference tracking and configuration.
 
 
-### 1. Environment Setup
+### Environment Setup
 To ensure reproducibility, this pipeline relies on Conda. 
 ```bash
 conda env create -f environment.yml
 conda activate gwas_env
+```
+
+### ⚠️ Note on Data Privacy
+This repository contains the computational infrastructure and analytical frameworks only. Due to data privacy and NDAs, all clinical and proprietary genomic data have been omitted.
